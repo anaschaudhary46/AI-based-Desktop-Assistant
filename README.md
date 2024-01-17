@@ -13,9 +13,21 @@ of a chatbot and a voice recognition system. The chatbot will give response
 to user queries like a personal assistant through use of deep learning 
 algorithms.
 
- 
+
  ![Screenshot 2023-04-30 173802](https://github.com/anaschaudhary46/AI-based-Desktop-Assistant/assets/119952638/4008a0c5-23cc-4d53-9eef-1e8cba380544)
                                             Methodology of Voice Recognition system for Virtual Assistant.
+
+
+
+Training of chatbot:
+
+I have trained and tested the chatbot dataset on multiple deep learning models. First, it trained on a simple feed-forward neural network which comprises densely connected layers of 256 and 128 neurons with ReLU activation, incorporating dropout for regularization. The model is compiled using the Adam optimizer and categorical crossentropy loss. Training is performed on 300 epochs with a batch size of 16. The model achieved accuracy of 97.1% on training data.
+This code file can be found in marc99.ipynb file
+
+Secondly, it trained on RNN and LSTM model, which incorporates an embedding layer to represent words, a 1D convolutional layer for feature extraction, and LSTM layers for sequence learning. Dropout is applied for regularization, and the model is designed for a classification task with 28 output classes, utilizing softmax activation. Training is performed on 1000 epochs with a batch size of 64. Regularizers are employed to control complexity and prevent overfitting. The model achieved accuracy of 99% on training data.
+The code for this model can be found in MARC.ipynb file
+
+ 
 
 
 
