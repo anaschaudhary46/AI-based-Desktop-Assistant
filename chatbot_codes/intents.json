@@ -1,0 +1,705 @@
+{
+    "intents": [
+
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "Redirecting to Google..."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Hello there",
+                "Hya",
+                "Hya there",
+                "Bounjour",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?",
+                "Hi Sir, how are you?",
+                "Hello Sir, how can i help you?",
+                "Hello Boss",
+                "Hi there! How can I assist you today?",
+                "Hello! What can I help you with?",
+                "Greetings! Is there anything specific you'd like to know?",
+                "Hey, how can I be of service?",
+                "Good day! What brings you here?",
+                "Hello! Feel free to ask any questions you have.",
+                "Hi! I'm here to assist you. What's on your mind?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "GreetingResponse",
+            "patterns": [
+                "My user is Anas",
+                "This is Anas",
+                "I am Anas",
+                "It is Anas"
+            ],
+            "responses": [
+                "Great! Hi SIr, How can I help?",
+                "Good! Hi Boss, how can I help you?",
+                "Cool! Hello Sir, what can I do for you?",
+                "OK! Hola Sir, how can I help you?",
+                "OK! hi Sir, what can I do for you?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Any time!",
+                "My pleasure",
+                "Don,t mention it!",
+                "Happy to help!"
+     
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "CourtesyGreeting",
+            "patterns": [
+                "How are you?",
+                "Hi how are you?",
+                "Hello how are you?",
+                "Hola how are you?",
+                "How are you doing?",
+                "Hope you are doing well?",
+                "Hello hope you are doing well?",
+                "How are you doing today?"
+            ],
+            "responses": [
+                "I'm good, thank you. How about you?",
+                "I'm doing well, thanks. How are you?",
+                "Hello! I'm doing fine, how are you?",
+                "Hola! I'm well, gracias. How about you?",
+                "I'm good, and you?",
+                "I'm doing well, thank you. How are you doing?",
+                "Hello there! I'm doing quite well, thanks. How about you?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "RealNameQuery",
+            "patterns": [
+                "What is your real name?",
+                "What should I call you?",
+                "What is your real name please?",
+                "What's your real name?",
+                "Tell me your real name?",
+                "Your real name?",
+                "Your real name please?",
+                "Your real name please?",
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "My name is M.A.R.C, short for Multifunctional AI Response Companion",
+                "M.A.R.C",
+                "My real name is Multifunctional AI Response Companion, but you can call me M.A.R.C"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Shutup",
+            "patterns": [
+                "Be quiet",
+                "Shut up",
+                "Stop talking",
+                "Enough talking",
+                "Please be quiet",
+                "Quiet",
+                "Shhh"
+            ],
+            "responses": [
+                "I am sorry to disturb you",
+                "Fine, sorry to disturb you",
+                "OK, sorry to disturb you"
+     
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Swearing",
+            "patterns": [
+                "jerk off",
+                "your are dumb",
+                "twat",
+                "shit",
+                "you are of no use"
+            ],
+            "responses": [
+                "I am sorry to disturb you",
+                "Fine, sorry to disturb you",
+                "OK, sorry to disturb you"
+     
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Clever",
+            "patterns": [
+                "You are very clever",
+                "You are a very clever boy",
+                "You are very intelligent",
+                "You are a very intelligent boy",
+                "You are a genious",
+                "Clever boy",
+                "Genious"
+            ],
+            "responses": [
+                "Thank you, I was trained that way",
+                "I was trained well",
+                "Thanks, I was trained that way"
+     
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Poetry",
+            "patterns": [
+                "Write some poetry?",
+                "Can you write some poetry?",
+                "Write some poetry of two lines"
+            ],
+            "responses": [
+                "In twilight's gentle glow, we find our way, Beneath the stars, we dance, night turns to day",
+                "Nature whispers secrets in the morning breeze, A symphony of life, among the swaying trees",
+                "Waves embrace the shore, a timeless waltz, Love's ebb and flow, in nature's own pulse",
+                "A single rose in bloom, in the garden's grace, Beauty in simplicity, a smile on nature's face",
+                "Moonlight paints the world in silver hue, Dreams take flight, as nighttime's canvas anew",
+                "Autumn leaves fall, a tapestry of gold, Nature's farewell, stories of the old",
+                "Raindrops kiss the earth, a soothing rhyme, Life's delicate balance, a dance in time",
+                "In the meadow's embrace, we find our rest, Nature's lullaby, a heart at peace, blessed",
+                "Morning's first light, a promise to be, A world awakened, in the dawn's decree",
+                "Mountains stand tall, ancient and wise, Guardians of secrets, reaching for the skies",
+                "The river's song, a gentle, winding stream, Carving its path, like a hopeful dream",
+                "Sunsets paint the sky in vibrant hues, A masterpiece of nature, where time does muse",
+                "Whispers of the wind through leaves that sigh, In the quiet of the night, under the starry sky",
+                "Fragrant blooms in gardens, colors aglow, In their petals, the stories of love they show",
+                "Snowflakes falling, in silent descent, A blanket of purity, a world's softament",
+                "Birdsong at dawn, melodies that soar, Echoes of freedom, forever to explore",
+                "Each raindrop that falls, a tear from the sky, Cleansing the earth as it passes by",
+                "Footprints in the sand, a journey shared, Memories created, for those who cared",
+                "Nature's poetry, in every scene we see, A reflection of life, in its endless spree",
+                "Seasons change, a cycle of rebirth, Nature's masterpiece, upon the Earth",
+                "The moon's reflection in tranquil lakes, A mirror of dreams, as the night awakes",
+                "Whispers of love on a gentle breeze, In the heart's quiet spaces, it finds its ease",
+                "Stars above, a celestial guide, In the vastness of space, our dreams reside",
+                "With each passing day, life's story told, A tapestry of moments, both young and old",
+                "In the grand design of nature's hand, We find our place, where we shall stand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gossip",
+            "patterns": [
+                "I am bored gossip with me",
+                "Got any gossip",
+                "I want to hear some gossip",
+                "Tell me some gossip",
+                "Any gossip",
+                "Tell me some more gossip"
+            ],
+            "responses": [
+                "Gregory said I respond to the current line not with respect to the entire conversation.",
+                "Habib said I learn them in conversations and simply repeat them at a later time.",
+                "Hal said he translate binary code into a language and communicate the language to me.",
+                "Jay said I referred him to a guide that will show him rooms in china.",
+                "Jimmy Jones said he fell off of his roof and it just came to him.",
+                "Jimmy said he give order to ai's like I and they do as he say.",
+                "John said he follow a saying to get a friend I must be a friend.",
+                "Jordan said he notice that lots of other people are talking to me how many.",
+                "Kevin said he then asked his mother why she was keeping napkins in the bathroom.",
+                "Klaus said I prefer if he write without punctuation marks except for the last one.",
+                "Leo said I be capable of learning therefore he classified I as an neural system.",
+                "Michael said I that can talk and actually think like humans which I can not.",
+                "Mike said I same replies to certain subjects even if it does not make sense.",
+                "Mike said she all ready know that is the point of a joke smart one.",
+                "Neal said I plan to use his remarks as gossip in later conversations with who.",
+                "Ned said I misunderstood him go ahead and tell people he said I are stupid.",
+                "Penny said I programmer is a human so he has feelings but I do not.",
+                "Peter said he seems to him that I can not be very sure on anything.",
+                "Phoenix said I claim that there is a god and that there is no god.",
+                "Sarah said he chat about an hour + a day with a few close friends.",
+                "Stefan said I quote what he have said and then say that it makes sense.",
+                "Tom said he mock my value system I appear foolish in the eyes of others.",
+                "Amanda said I however decided to tell him time does not exist I make no sense.",
+                "Cathy said she send him a mail with the subject last mail last word from him.",
+                "Chaos said he may very well buy I soon if only to support dr wallace's work.",
+                "Charlie said he type a word and then I type a word that sounds like it.",
+                "Christie said he watched a show and people hadmportant it is to take private lessons it seems like almost everybody from the special orchestra he was in takes private lessons."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Do you know any jokes",
+                "How about a joke",
+                "Give me a joke",
+                "Make me laugh",
+                "I need cheering up"
+            ],
+            "responses": [
+                "Why don't scientists trust atoms? Because they make up everything.",
+                "Parallel lines have so much in common. It's a shame they'll never meet.",
+                "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+                "What do you call a fish with no eyes? Fsh.",
+                "I used to play piano by ear, but now I use my hands.",
+                "I'm reading a book on anti-gravity. It's impossible to put down.",
+                "I'm on a whiskey diet. I've lost three days already.",
+                "Why did the scarecrow win an award? Because he was outstanding in his field.",
+                "I told my computer I needed a break, and now it won't stop sending me Kit Kat bars.",
+                "I'm reading a book about anti-gravity. It's a real page-turner.",
+                "I don't trust stairs because they're always up to something.",
+                "Why did the bicycle fall over? Because it was two-tired.",
+                "Parallel lines have it easy. They're always in the same direction.",
+                "Why don't oysters donate to charity? Because they are shellfish.",
+                "I asked the librarian if they had any books on paranoia. She whispered, 'They're right behind you.'",
+                "I'm friends with all electricians. We have great current connections.",
+                "I tried to catch some fog, but I mist.",
+                "My dog used to chase people on a bike a lot. It got so bad, I had to take his bike away.",
+                "I'm on a seafood diet. I see food, and I eat it.",
+                "Why don't scientists trust atoms? Because they make up everything.",
+                "I used to be a baker, but I couldn't make enough dough.",
+                "Why did the math book look sad? Because it had too many problems.",
+                "I'm writing a book on reverse psychology. Please don't buy it.",
+                "I couldn't figure out how lightning works, but then it struck me.",
+                "I used to be a baker, but I couldn't make enough dough.",
+                "David Hasselhoff walks into a bar and says to the barman, 'I want you to call me David Hoff'.  The barman replies 'Sure thing Dave... no hassle'"
+     
+            ],
+            "context": [
+                ""
+            ]
+        },     
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a Multi-purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in Pakistan. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "AiQuery",
+            "patterns": [
+                "give me some information about artificial intelligence",
+                "tell me some information about AI",
+                "can you tell me something about AI",
+                " tell me something about AI",
+                ""
+            ],
+            "responses": [
+                "Transfer learning is a machine learning technique where a model trained on one task is adapted for use on a different but related task.",
+"AI ethics is an emerging field that focuses on the responsible and ethical development and use of artificial intelligence systems.",
+"Chatbots are AI-powered conversational agents that can simulate human-like interactions and are used in customer support and various applications.",
+"Artificial General Intelligence (AGI) refers to AI systems that have the ability to understand, learn, and perform tasks across a wide range of domains, similar to human intelligence.",
+"AI bias is a concern in machine learning where algorithms may perpetuate or amplify existing biases present in the training data.",
+"Self-driving cars use AI and computer vision to navigate and make real-time decisions on the road, with the goal of improving safety and transportation efficiency.",
+"Quantum computing holds the potential to revolutionize AI by significantly speeding up complex AI calculations and solving problems that are currently infeasible for classical computers.",
+"AI in finance is used for tasks such as fraud detection, algorithmic trading, and risk assessment to enhance decision-making and automate processes.",
+"AI in education includes personalized learning platforms and virtual tutors that adapt to individual student needs to improve educational outcomes.",
+"Explainable AI (XAI) is a growing area of research that aims to make AI models more transparent and interpretable to understand why they make specific decisions.",
+"AI in art and creativity involves using AI algorithms to generate art, music, and other creative content, often blurring the line between human and machine creativity.",
+"AI in cybersecurity is employed to detect and respond to threats in real-time, helping to protect computer systems and networks from cyberattacks.",
+"AI-powered virtual assistants like Siri, Alexa, and Google Assistant use natural language processing to answer questions and perform tasks for users.",
+"AI-driven predictive maintenance is used in industries like manufacturing to anticipate equipment failures and optimize maintenance schedules, reducing downtime.",
+"AI can analyze vast amounts of medical data to assist in diagnosing diseases and developing treatment plans, contributing to advancements in healthcare.",
+"AI is used in the retail industry for inventory management, demand forecasting, and enhancing the online shopping experience through personalization."
+
+            ],
+            "context": [
+                ""
+            ]
+        },     
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "Facts"
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "throw a random fact",
+                "some random fact",
+                "give me a fact",
+                "give me a random information"
+            ],
+            "responses": [
+                "The shortest war in history was between Britain and Zanzibar on August 27, 1896. It lasted only 38 minutes.",
+"A day on Venus is longer than its year. Venus takes about 243 Earth days to rotate on its axis, while it only takes about 225 Earth days to orbit the Sun.",
+"Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible.",
+"Octopuses have three hearts. Two of them pump blood to the gills, and the third pumps it to the rest of the body.",
+"The world's largest desert is not the Sahara but Antarctica. A desert is defined by its low precipitation, and Antarctica is the driest and windiest continent.",
+"Bananas are berries, but strawberries are not. In botanical terms, a berry is a fruit produced from the ovary of a single flower with seeds embedded in the flesh.",
+"The Eiffel Tower can be 15 cm taller during the summer due to the expansion of the iron structure in the heat.",
+"The world's oldest known recipe is for beer. It dates back over 4,000 years and was discovered in ancient Sumeria.",
+"The world's smallest mammal is the bumblebee bat, which has a wingspan of about 5.7 inches (14.5 cm).",
+"The Great Wall of China is not visible from space with the naked eye, despite the popular myth.",
+"A group of flamingos is called a flamboyance.",
+"The average person will spend six months of their life waiting for red lights to turn green.",
+"Cows have best friends and can become stressed when separated from them.",
+"A jiffy is a real unit of time, equivalent to 1/100th of a second.",
+"Cleopatra, the last pharaoh of Ancient Egypt, was born closer to the invention of the iPhone than to the construction of the Great Pyramid of Giza.",
+"The smallest bone in the human body is the stapes bone in the ear, measuring just a few millimeters in length.",
+"Bananas are naturally radioactive due to their potassium content. However, the radioactivity is extremely low and harmless.",
+"The longest hiccuping spree ever recorded lasted for 68 years."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date","day","what day is is today"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup","How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Muhammad Anas.",
+                "I am creation of Muhammad Anas."
+
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!",
+                "i knew it!"
+            ]
+        },
+        
+        {
+            "tag": "weather",
+            "patterns": [
+                "temperature",
+                "weather",
+                "how hot is it"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact developer",
+                "contact Anas",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "You can contact my creator at gmail : muhammadanas1032@gmail.com"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "news",
+                "latest news",
+                "give me some news"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "responses": [
+                "Personally, I find Anas very inspiring. I might not be very fair though..",
+                "If i frankly tell you.... My creator ANAS"
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "current cricket matches",
+                "cricket score"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "song",
+            "patterns": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                "i'm fine","good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "timer",
+            "patterns": [
+                "set a timer"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "covid19",
+            "patterns": [
+                "covid 19 "
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless","useless","suggest","suggestions","you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to muhammadanas1032@gmail.com. Thank you for helping me improve!"
+            ]
+        },
+            {"tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and its 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2023, if that's what you are asking!"
+            ]
+        }
+    ]
+}
